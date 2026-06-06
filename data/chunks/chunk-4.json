@@ -1,0 +1,143 @@
+{
+  "issues": [
+    {
+      "key": "SALES-9061",
+      "fields": {
+        "summary": "Retry oban jobs of leads that failed to convert from supply from 2026-05-19",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "created": "2026-05-20T14:28:06.713-0700",
+        "resolutiondate": "2026-05-20T14:48:20.650-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Gustavo Silva"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-9062",
+      "fields": {
+        "summary": "Backfill Sales Quota Records",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-21T12:48:58.332-0700",
+        "resolutiondate": "2026-05-27T08:56:19.609-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Michael Criswell"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "SRT-Product"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-9063",
+      "fields": {
+        "summary": "Addresses not being saved correctly when using the edit button on the layout",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "created": "2026-05-21T15:12:34.521-0700",
+        "resolutiondate": "2026-05-26T12:16:54.775-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Gustavo Silva"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "CAB_Approved",
+          "In_QA",
+          "PR_created"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-9064",
+      "fields": {
+        "summary": "bump GitHub Actions pins for Node 20 deprecation on setup-sfdx action",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-22T13:40:38.452-0700",
+        "resolutiondate": "2026-05-26T12:16:45.924-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Gustavo Silva"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "In_QA",
+          "PR_created"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-9065",
+      "fields": {
+        "summary": "Improve error handling of OpportunityTriggerHelper.updateContactOwner",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "created": "2026-05-25T08:31:35.173-0700",
+        "resolutiondate": "2026-05-26T12:16:37.143-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Gustavo Silva"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "In_QA",
+          "PR_created"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-9066",
+      "fields": {
+        "summary": "InquiryFinalize exceptions being sent through email and not to bugsnag",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "created": "2026-05-26T08:40:00.809-0700",
+        "resolutiondate": "2026-05-27T14:12:29.783-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Gustavo Silva"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "CAB_Approved",
+          "In_QA",
+          "PR_created",
+          "QA_Completed",
+          "Ready_For_QA"
+        ],
+        "customfield_10026": 1
+      }
+    }
+  ],
+  "isLast": true
+}

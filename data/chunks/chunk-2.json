@@ -1,0 +1,910 @@
+{
+  "issues": [
+    {
+      "key": "SALES-8912",
+      "fields": {
+        "summary": "Salesforce Staging Refresh | Real Partners",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-04-24T09:53:23.034-0700",
+        "resolutiondate": "2026-05-18T05:54:47.290-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Grace Saint"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "DescriptionTooShort",
+          "NeedsAcceptanceCriteria"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8919",
+      "fields": {
+        "summary": "Update Email Template Referencing List Price",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-04-27T11:22:08.348-0700",
+        "resolutiondate": "2026-05-15T09:29:20.316-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Michael Criswell"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "ARB_Approved_Not_required",
+          "CAB_Approved",
+          "DescriptionTooShort",
+          "In_QA",
+          "NeedsAcceptanceCriteria",
+          "PR_created",
+          "QA_Completed",
+          "Ready_For_QA",
+          "SRT-Product",
+          "salesforce"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8924",
+      "fields": {
+        "summary": "Improve Error Handling for RP Welcome Email",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "created": "2026-04-28T07:16:28.122-0700",
+        "resolutiondate": "2026-05-26T12:04:52.878-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Grace Saint"
+        },
+        "status": {
+          "name": "Won't Do"
+        },
+        "labels": [
+          "ARB_Approved_Not_required",
+          "PR_created",
+          "salesforce"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8926",
+      "fields": {
+        "summary": "Create a 90 Day expiration on Referral Records when an opportunity is not closed won",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-04-28T09:22:02.856-0700",
+        "resolutiondate": "2026-05-21T10:03:16.600-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Chris Burns"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "ARB_Approved",
+          "CAB_Approved",
+          "DescriptionTooShort",
+          "In_QA",
+          "PR_created"
+        ],
+        "customfield_10026": 5
+      }
+    },
+    {
+      "key": "SALES-8932",
+      "fields": {
+        "summary": "Create Unit Factor field and update Fractional HC Logic",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-04-29T09:12:24.198-0700",
+        "resolutiondate": "2026-05-26T12:17:11.052-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Michael Criswell"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "ARB_Approved",
+          "CAB_Approved",
+          "DescriptionTooShort",
+          "In_QA",
+          "PR_created",
+          "SRT-Product",
+          "salesforce"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8935",
+      "fields": {
+        "summary": "Update Voice Agent Design to Account for Requirements",
+        "issuetype": {
+          "name": "Spike"
+        },
+        "created": "2026-04-30T07:42:39.726-0700",
+        "resolutiondate": "2026-05-27T11:39:43.324-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Nag Malluru"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "SRT-Product",
+          "Salesforce"
+        ],
+        "customfield_10026": 2
+      }
+    },
+    {
+      "key": "SALES-8936",
+      "fields": {
+        "summary": "Review What Alternate Platforms can Enable Voice Agents",
+        "issuetype": {
+          "name": "Spike"
+        },
+        "created": "2026-04-30T07:48:45.181-0700",
+        "resolutiondate": "2026-05-22T12:26:19.536-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Grace Saint"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "SRT-Product",
+          "Salesforce"
+        ],
+        "customfield_10026": 3
+      }
+    },
+    {
+      "key": "SALES-8950",
+      "fields": {
+        "summary": "GM Quota Discount",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-04T11:28:48.581-0700",
+        "resolutiondate": "2026-05-26T12:17:02.791-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Sai Deepika Kanuri"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "ARB_Approved",
+          "CAB_Approved",
+          "In_QA",
+          "PR_created",
+          "SRT-Product"
+        ],
+        "customfield_10026": 2
+      }
+    },
+    {
+      "key": "SALES-8954",
+      "fields": {
+        "summary": "Update ContactTriggerHandler to set Phone on Open Opps",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "created": "2026-05-05T08:30:13.325-0700",
+        "resolutiondate": "2026-05-19T13:53:07.415-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Grace Saint"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "ARB_Approved_Not_required",
+          "CAB_Approved",
+          "PR_created",
+          "QA_Completed",
+          "salesforce"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8955",
+      "fields": {
+        "summary": "Releases: Enable Accessibility Enhancements for Date Pickers, Popovers, Bottom Utility Bars, Record Headers",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-05T08:40:55.551-0700",
+        "resolutiondate": "2026-05-26T11:18:41.016-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Grace Saint"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "ARB_Approved_Not_required",
+          "DescriptionTooShort",
+          "NeedsAcceptanceCriteria",
+          "PR_not_required"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8956",
+      "fields": {
+        "summary": "Releases: Salesforce-Managed X (Formerly Twitter) Authentication Provider Retirement",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-05T08:41:57.658-0700",
+        "resolutiondate": "2026-05-18T13:28:10.177-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Nag Malluru"
+        },
+        "status": {
+          "name": "Won't Do"
+        },
+        "labels": [
+          "DescriptionTooShort",
+          "NeedsAcceptanceCriteria"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8957",
+      "fields": {
+        "summary": "Releases: Use Visualforce PDF Rendering Service with Apex Blob.toPdf()",
+        "issuetype": {
+          "name": "Spike"
+        },
+        "created": "2026-05-05T08:42:50.076-0700",
+        "resolutiondate": "2026-05-15T12:23:49.719-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Chris Burns"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "DescriptionTooShort",
+          "NeedsAcceptanceCriteria"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8958",
+      "fields": {
+        "summary": "Releases: Enable Accessibility Enhancements for Page Headers and Modal Windows When Zoom Is Greater Than 200%",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-05T08:44:31.354-0700",
+        "resolutiondate": "2026-05-26T10:57:32.531-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Michael Criswell"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "ARB_Approved_Not_required",
+          "DescriptionTooShort",
+          "NeedsAcceptanceCriteria"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8959",
+      "fields": {
+        "summary": "Releases: Sort Apex Batch Action Results by Request Order",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-05T08:45:16.113-0700",
+        "resolutiondate": "2026-05-14T11:19:31.419-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Gustavo Silva"
+        },
+        "status": {
+          "name": "Won't Do"
+        },
+        "labels": [
+          "DescriptionTooShort",
+          "NeedsAcceptanceCriteria"
+        ],
+        "customfield_10026": null
+      }
+    },
+    {
+      "key": "SALES-8962",
+      "fields": {
+        "summary": "Referral In-Territory Validation Error for Address Change Process",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "created": "2026-05-06T12:18:50.714-0700",
+        "resolutiondate": "2026-05-19T13:53:27.713-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Alex Burton"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "ARB_Approved_Not_required",
+          "CAB_Approved",
+          "In_QA",
+          "PR_created"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8974",
+      "fields": {
+        "summary": "5/15/26 - 5/25/26 Cohorts",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-11T09:23:56.698-0700",
+        "resolutiondate": "2026-05-27T08:30:38.143-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Alex Burton"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "NeedsAcceptanceCriteria",
+          "PR_not_required"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8975",
+      "fields": {
+        "summary": "Alex Zendesk Ticket 5/14 - 5/27",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "created": "2026-05-11T09:24:49.532-0700",
+        "resolutiondate": "2026-05-27T15:12:46.967-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Alex Burton"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "PR_not_required"
+        ],
+        "customfield_10026": 2
+      }
+    },
+    {
+      "key": "SALES-8976",
+      "fields": {
+        "summary": "SlackPlatformEventTriggerHandler | An unhandled fault has occurred in this flow",
+        "issuetype": {
+          "name": "Bug"
+        },
+        "created": "2026-05-11T12:36:02.069-0700",
+        "resolutiondate": "2026-05-19T13:53:15.283-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Gustavo Silva"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "CAB_Approved",
+          "In_QA",
+          "PR_created",
+          "QA_Completed",
+          "Ready_For_QA"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8978",
+      "fields": {
+        "summary": "Integration Landscape and Data Flow Diagrams",
+        "issuetype": {
+          "name": "Spike"
+        },
+        "created": "2026-05-11T15:05:26.504-0700",
+        "resolutiondate": "2026-05-28T11:58:49.599-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Nag Malluru"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [],
+        "customfield_10026": 3
+      }
+    },
+    {
+      "key": "SALES-8980",
+      "fields": {
+        "summary": "Summer 26 Release | Zoom, Address Validation, Lead Assignment, Lead Conversion",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T09:50:33.479-0700",
+        "resolutiondate": "2026-05-14T13:36:49.355-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Alex Burton"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "NeedsAcceptanceCriteria",
+          "PR_not_required"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8981",
+      "fields": {
+        "summary": "Summer 26 Release| Real Partners",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T09:53:06.331-0700",
+        "resolutiondate": "2026-05-21T07:43:13.047-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Grace Saint"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "DescriptionTooShort",
+          "NeedsAcceptanceCriteria"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8982",
+      "fields": {
+        "summary": "Summer 26 Release | SF - Admin Sync",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T09:54:31.138-0700",
+        "resolutiondate": "2026-05-14T07:25:22.907-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Gustavo Silva"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "DescriptionTooShort",
+          "NeedsAcceptanceCriteria",
+          "cross_team_work_SF"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8983",
+      "fields": {
+        "summary": "Summer 26 Release | Shipping Happy Path",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T09:55:56.319-0700",
+        "resolutiondate": "2026-05-14T12:57:04.591-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Nag Malluru"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "cross_team_work_SF"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8984",
+      "fields": {
+        "summary": "Summer 26 Release | Vendor Bulk Upload",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T09:57:05.849-0700",
+        "resolutiondate": "2026-05-27T07:43:08.360-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Gustavo Silva"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "CAB_Approved",
+          "DescriptionTooShort",
+          "In_QA",
+          "NeedsAcceptanceCriteria",
+          "PR_created",
+          "QA_Completed",
+          "Ready_For_QA"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8985",
+      "fields": {
+        "summary": "Summer 26 Release - Funnel testing in staging after the css fix",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T09:58:19.027-0700",
+        "resolutiondate": "2026-05-14T07:00:59.549-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Gustavo Silva"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8986",
+      "fields": {
+        "summary": "Summer 26 Release | Add Item",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T09:59:15.713-0700",
+        "resolutiondate": "2026-05-20T11:18:35.704-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Michael Criswell"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "DescriptionTooShort",
+          "NeedsAcceptanceCriteria",
+          "cross_team_work_SF"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8987",
+      "fields": {
+        "summary": "Summer 26 Release | Lead Conversion Self Gen Referrals",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T10:00:40.128-0700",
+        "resolutiondate": "2026-05-13T10:13:29.237-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Michael Criswell"
+        },
+        "status": {
+          "name": "Won't Do"
+        },
+        "labels": [],
+        "customfield_10026": null
+      }
+    },
+    {
+      "key": "SALES-8988",
+      "fields": {
+        "summary": "Summer 26 Release | VO Doc Test",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T10:01:43.397-0700",
+        "resolutiondate": "2026-05-20T10:48:12.273-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Michael Criswell"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "DescriptionTooShort",
+          "NeedsAcceptanceCriteria",
+          "salesforce"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8989",
+      "fields": {
+        "summary": "Summer 26 Release | SUMO Scheduling on Lead",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T10:04:10.321-0700",
+        "resolutiondate": "2026-05-27T07:37:01.164-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Jummy Sanni"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "DescriptionTooShort",
+          "NeedsAcceptanceCriteria"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8990",
+      "fields": {
+        "summary": "Summer 26 Release | Commissions",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T10:05:13.391-0700",
+        "resolutiondate": "2026-05-18T13:32:29.116-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Sai Deepika Kanuri"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "DescriptionTooShort",
+          "NeedsAcceptanceCriteria"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8991",
+      "fields": {
+        "summary": "Summer 26 Release | As a sales rep create a self-generated referral and convert it to an opportunity. - using the standard lead button.",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T10:06:56.652-0700",
+        "resolutiondate": "2026-05-13T10:13:41.460-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Alex Burton"
+        },
+        "status": {
+          "name": "Won't Do"
+        },
+        "labels": [
+          "salesforce"
+        ],
+        "customfield_10026": null
+      }
+    },
+    {
+      "key": "SALES-8992",
+      "fields": {
+        "summary": "Summer 26 Release | VO Doc Process",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T10:08:47.924-0700",
+        "resolutiondate": "2026-05-12T10:43:54.330-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Michael Criswell"
+        },
+        "status": {
+          "name": "Won't Do"
+        },
+        "labels": [],
+        "customfield_10026": null
+      }
+    },
+    {
+      "key": "SALES-8993",
+      "fields": {
+        "summary": "Summer 26 Release | Slack - HelloSign",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T10:10:43.354-0700",
+        "resolutiondate": "2026-05-18T12:14:49.927-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Nag Malluru"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8994",
+      "fields": {
+        "summary": "Summer 26 Release | Zoom",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T10:14:05.391-0700",
+        "resolutiondate": "2026-05-13T10:13:46.034-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Alex Burton"
+        },
+        "status": {
+          "name": "Won't Do"
+        },
+        "labels": [],
+        "customfield_10026": null
+      }
+    },
+    {
+      "key": "SALES-8995",
+      "fields": {
+        "summary": "Summer 26 Release | Address Validation",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T10:15:23.578-0700",
+        "resolutiondate": "2026-05-13T10:13:49.830-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Alex Burton"
+        },
+        "status": {
+          "name": "Won't Do"
+        },
+        "labels": [],
+        "customfield_10026": null
+      }
+    },
+    {
+      "key": "SALES-8996",
+      "fields": {
+        "summary": "Summer 26 Release | HelloSign",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T10:16:29.710-0700",
+        "resolutiondate": "2026-05-13T10:17:44.516-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Nag Malluru"
+        },
+        "status": {
+          "name": "Won't Do"
+        },
+        "labels": [],
+        "customfield_10026": null
+      }
+    },
+    {
+      "key": "SALES-8997",
+      "fields": {
+        "summary": "Summer 26 Release | SUMO Scheduling on CLP and Cancelling",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T10:17:51.737-0700",
+        "resolutiondate": "2026-05-22T12:52:44.453-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Jummy Sanni"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "NeedsAcceptanceCriteria"
+        ],
+        "customfield_10026": 1
+      }
+    },
+    {
+      "key": "SALES-8998",
+      "fields": {
+        "summary": "Summer 26 Release | SUMO QA- Book SGO Retail Appt",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T10:19:02.675-0700",
+        "resolutiondate": "2026-05-13T10:08:21.882-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Jummy Sanni"
+        },
+        "status": {
+          "name": "Won't Do"
+        },
+        "labels": [],
+        "customfield_10026": null
+      }
+    },
+    {
+      "key": "SALES-8999",
+      "fields": {
+        "summary": "Summer 26 Release | SUMO Scheduling, Update & Cancel on Opp",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-05-12T10:20:05.118-0700",
+        "resolutiondate": "2026-05-21T09:07:18.983-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Jummy Sanni"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "DescriptionTooShort",
+          "NeedsAcceptanceCriteria"
+        ],
+        "customfield_10026": 1
+      }
+    }
+  ],
+  "isLast": true
+}

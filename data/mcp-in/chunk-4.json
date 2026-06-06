@@ -1,0 +1,58 @@
+{
+  "issues": [
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "231016",
+      "self": "https://api.atlassian.com/ex/jira/f9205a83-ba29-431b-9196-acc0dbc49e4e/rest/api/3/issue/231016",
+      "key": "SALES-9061",
+      "fields": {
+        "summary": "Retry oban jobs of leads that failed to convert from supply from 2026-05-19",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/f9205a83-ba29-431b-9196-acc0dbc49e4e/rest/api/3/issuetype/10004",
+          "id": "10004",
+          "description": "A problem or error.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/f9205a83-ba29-431b-9196-acc0dbc49e4e/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "name": "Bug",
+          "subtask": false,
+          "avatarId": 10303,
+          "hierarchyLevel": 0
+        },
+        "created": "2026-05-20T14:28:06.713-0700",
+        "resolutiondate": "2026-05-20T14:48:20.650-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "self": "https://api.atlassian.com/ex/jira/f9205a83-ba29-431b-9196-acc0dbc49e4e/rest/api/3/user?accountId=606e2101d652f70069416cc8",
+          "accountId": "606e2101d652f70069416cc8",
+          "emailAddress": "gustavo.silva@therealreal.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/ecfae112b56909b83f33e22e831ddce0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGS-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/ecfae112b56909b83f33e22e831ddce0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGS-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/ecfae112b56909b83f33e22e831ddce0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGS-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/ecfae112b56909b83f33e22e831ddce0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGS-2.png"
+          },
+          "displayName": "Gustavo Silva",
+          "active": true,
+          "timeZone": "America/Los_Angeles",
+          "accountType": "atlassian"
+        },
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/f9205a83-ba29-431b-9196-acc0dbc49e4e/rest/api/3/status/10001",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/f9205a83-ba29-431b-9196-acc0dbc49e4e/",
+          "name": "Done",
+          "id": "10001",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/f9205a83-ba29-431b-9196-acc0dbc49e4e/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "labels": [],
+        "customfield_10026": 1
+      }
+    }
+  ],
+  "isLast": true
+}

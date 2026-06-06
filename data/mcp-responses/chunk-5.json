@@ -1,0 +1,71 @@
+{
+  "issues": [
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "226215",
+      "self": "https://api.atlassian.com/ex/jira/f9205a83-ba29-431b-9196-acc0dbc49e4e/rest/api/3/issue/226215",
+      "key": "SELLTECH-1050",
+      "fields": {
+        "summary": "Create a batch job to calculate Booster NC Credit on Opportunity",
+        "issuetype": {
+          "name": "Story",
+          "subtask": false
+        },
+        "created": "2026-04-21T12:44:07.344-0700",
+        "resolutiondate": "2026-05-27T14:09:35.031-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Gustavo Silva",
+          "active": true
+        },
+        "status": {
+          "name": "Done",
+          "statusCategory": {
+            "key": "done",
+            "name": "Done"
+          }
+        },
+        "labels": [
+          "ARB_Requested",
+          "In_QA",
+          "SRT-Product"
+        ],
+        "customfield_10026": 3
+      }
+    },
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "226216",
+      "self": "https://api.atlassian.com/ex/jira/f9205a83-ba29-431b-9196-acc0dbc49e4e/rest/api/3/issue/226216",
+      "key": "SELLTECH-1051",
+      "fields": {
+        "summary": "Update Record Trigger: Consignment Order Items Object (Comp Calc) to use new logic",
+        "issuetype": {
+          "name": "Story",
+          "subtask": false
+        },
+        "created": "2026-04-21T12:45:02.814-0700",
+        "resolutiondate": "2026-05-27T14:09:56.776-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Gustavo Silva",
+          "active": true
+        },
+        "status": {
+          "name": "Done",
+          "statusCategory": {
+            "key": "done",
+            "name": "Done"
+          }
+        },
+        "labels": [
+          "ARB_Requested",
+          "In_QA",
+          "SRT-Product"
+        ],
+        "customfield_10026": 2
+      }
+    }
+  ],
+  "isLast": true
+}

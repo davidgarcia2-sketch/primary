@@ -1,0 +1,567 @@
+{
+  "sprint_name": "Sales 5/14 - 5/27",
+  "sprint_id": 8591,
+  "sprint_dates": "2026-05-14 16:37 UTC \u2192 2026-05-28 06:30 UTC",
+  "total_issues": 88,
+  "total_points": 118,
+  "done_issues": 75,
+  "done_points": 113,
+  "wont_do_issues": 13,
+  "wont_do_points": 5,
+  "carry_issues": 0,
+  "carry_points": 0,
+  "spikes_closed": 8,
+  "bugs_closed": 19,
+  "buckets": {
+    "buffer": 85,
+    "product": 33
+  },
+  "daily_done_points": {
+    "2026-05-14": 13,
+    "2026-05-15": 5,
+    "2026-05-18": 7,
+    "2026-05-19": 12,
+    "2026-05-20": 5,
+    "2026-05-21": 12,
+    "2026-05-22": 7,
+    "2026-05-26": 15,
+    "2026-05-27": 29,
+    "2026-05-28": 6,
+    "2026-06-03": 2
+  },
+  "mid_sprint_created": [
+    {
+      "key": "SALES-9018",
+      "summary": "Q2-2026 User Access Reviews (UAR): May 29, 2026",
+      "points": 2,
+      "created": "2026-05-14T10:41:30.367-0700"
+    },
+    {
+      "key": "SALES-9019",
+      "summary": "Certification:   Sales Cloud Uncorrelated User Access Review Q2 2026",
+      "points": 1,
+      "created": "2026-05-14T10:45:00.551-0700"
+    },
+    {
+      "key": "SALES-9020",
+      "summary": "Certification:   Manager's User Access Review - Q2 2026",
+      "points": 1,
+      "created": "2026-05-14T10:47:27.839-0700"
+    },
+    {
+      "key": "SALES-9022",
+      "summary": "[2026-05-15]Force Sync of Consignment Items from Admin to Salesforce",
+      "points": 1,
+      "created": "2026-05-14T13:25:16.347-0700"
+    },
+    {
+      "key": "SALES-9023",
+      "summary": "SGO IS Leads Not Populating Correctly",
+      "points": 1,
+      "created": "2026-05-15T09:19:59.024-0700"
+    },
+    {
+      "key": "SALES-9026",
+      "summary": "[2026-05-19]Force Sync of Consignment Items from Admin to Salesforce",
+      "points": 1,
+      "created": "2026-05-15T11:54:31.477-0700"
+    },
+    {
+      "key": "SALES-9027",
+      "summary": "Backfill NC Count data and Recalculate value credit",
+      "points": 1,
+      "created": "2026-05-18T08:31:34.555-0700"
+    },
+    {
+      "key": "SALES-9040",
+      "summary": "Pull 20th of Month Real Partner Reports",
+      "points": 1,
+      "created": "2026-05-18T11:58:34.170-0700"
+    },
+    {
+      "key": "SALES-9042",
+      "summary": "Zendesk Bug Ticket Holder (May 14 - May 27)",
+      "points": 2,
+      "created": "2026-05-18T12:14:21.619-0700"
+    },
+    {
+      "key": "SALES-9044",
+      "summary": "[2026-05-20]Force Sync of Consignment Items from Admin to Salesforce",
+      "points": 1,
+      "created": "2026-05-19T06:44:03.356-0700"
+    },
+    {
+      "key": "SALES-9045",
+      "summary": "push_topic.cls not running on mac when finalizing the deploy.sh script",
+      "points": 1,
+      "created": "2026-05-19T11:57:52.423-0700"
+    },
+    {
+      "key": "SALES-9059",
+      "summary": "Troubleshoot and fix sfConvertLeadApptWizard.test.js in the qe-mocha-automation repo",
+      "points": 1,
+      "created": "2026-05-20T07:35:15.035-0700"
+    },
+    {
+      "key": "SALES-9061",
+      "summary": "Retry oban jobs of leads that failed to convert from supply from 2026-05-19",
+      "points": 1,
+      "created": "2026-05-20T14:28:06.713-0700"
+    },
+    {
+      "key": "SALES-9062",
+      "summary": "Backfill Sales Quota Records",
+      "points": 1,
+      "created": "2026-05-21T12:48:58.332-0700"
+    },
+    {
+      "key": "SALES-9063",
+      "summary": "Addresses not being saved correctly when using the edit button on the layout",
+      "points": 1,
+      "created": "2026-05-21T15:12:34.521-0700"
+    },
+    {
+      "key": "SALES-9064",
+      "summary": "bump GitHub Actions pins for Node 20 deprecation on setup-sfdx action",
+      "points": 1,
+      "created": "2026-05-22T13:40:38.452-0700"
+    },
+    {
+      "key": "SALES-9065",
+      "summary": "Improve error handling of OpportunityTriggerHelper.updateContactOwner",
+      "points": 1,
+      "created": "2026-05-25T08:31:35.173-0700"
+    },
+    {
+      "key": "SALES-9066",
+      "summary": "InquiryFinalize exceptions being sent through email and not to bugsnag",
+      "points": 1,
+      "created": "2026-05-26T08:40:00.809-0700"
+    }
+  ],
+  "per_engineer": {
+    "Alex Burton": {
+      "done": [
+        [
+          "SALES-8810",
+          "Backfill NAV VAN on OppIntakeMethod",
+          1
+        ],
+        [
+          "SALES-8962",
+          "Referral In-Territory Validation Error for Address Change Process",
+          1
+        ],
+        [
+          "SALES-8974",
+          "5/15/26 - 5/25/26 Cohorts",
+          1
+        ],
+        [
+          "SALES-8975",
+          "Alex Zendesk Ticket 5/14 - 5/27",
+          2
+        ],
+        [
+          "SALES-8980",
+          "Summer 26 Release | Zoom, Address Validation, Lead Assignment, Lead Conversion",
+          1
+        ],
+        [
+          "SALES-9011",
+          "Audit and Update reps missing Zoom URLs",
+          1
+        ],
+        [
+          "SALES-9016",
+          "ALRA Lead Routing",
+          3
+        ]
+      ],
+      "carry": []
+    },
+    "Jummy Sanni": {
+      "done": [
+        [
+          "SALES-8715",
+          "PROD BUG: Cannot Edit Past Appts",
+          1
+        ],
+        [
+          "SALES-8989",
+          "Summer 26 Release | SUMO Scheduling on Lead",
+          1
+        ],
+        [
+          "SALES-8997",
+          "Summer 26 Release | SUMO Scheduling on CLP and Cancelling",
+          1
+        ],
+        [
+          "SALES-8999",
+          "Summer 26 Release | SUMO Scheduling, Update & Cancel on Opp",
+          1
+        ],
+        [
+          "SALES-9010",
+          "SUMO: Enable Create/Edit Past Appt Feature (Staging&PROD)",
+          2
+        ],
+        [
+          "SALES-9015",
+          "Zendesk Tickets 5/14-5/27",
+          2
+        ]
+      ],
+      "carry": []
+    },
+    "Michael Criswell": {
+      "done": [
+        [
+          "SALES-8876",
+          "Count As New Consignor Formula Field Update",
+          3
+        ],
+        [
+          "SALES-8878",
+          "Update List Price to TRR Price in Commission Calculations",
+          2
+        ],
+        [
+          "SALES-8879",
+          "Keep AUR Accurate for Ship Dates < and > 6/1",
+          3
+        ],
+        [
+          "SALES-8919",
+          "Update Email Template Referencing List Price",
+          1
+        ],
+        [
+          "SALES-8932",
+          "Create Unit Factor field and update Fractional HC Logic",
+          1
+        ],
+        [
+          "SALES-8958",
+          "Releases: Enable Accessibility Enhancements for Page Headers and Modal Windows When Zoom Is Greater Than 200%",
+          1
+        ],
+        [
+          "SALES-8986",
+          "Summer 26 Release | Add Item",
+          1
+        ],
+        [
+          "SALES-8988",
+          "Summer 26 Release | VO Doc Test",
+          1
+        ],
+        [
+          "SALES-9001",
+          "Upgrade the Security of Your Salesforce Experience",
+          2
+        ],
+        [
+          "SALES-9005",
+          "Incorrect Referral Type Tagging",
+          2
+        ],
+        [
+          "SALES-9062",
+          "Backfill Sales Quota Records",
+          1
+        ]
+      ],
+      "carry": []
+    },
+    "Chris Burns": {
+      "done": [
+        [
+          "SALES-8548",
+          "Bump Builder and Factory classes from API Version 54 to 66",
+          2
+        ],
+        [
+          "SALES-8551",
+          "Bump Batch classes from API Version 54 to 66 - Ticket 1 of 2",
+          2
+        ],
+        [
+          "SALES-8800",
+          "Create base LWC for OA",
+          3
+        ],
+        [
+          "SALES-8926",
+          "Create a 90 Day expiration on Referral Records when an opportunity is not closed won",
+          5
+        ],
+        [
+          "SALES-8957",
+          "Releases: Use Visualforce PDF Rendering Service with Apex Blob.toPdf()",
+          1
+        ],
+        [
+          "SALES-9003",
+          "Verify Your Domains for Email Security",
+          2
+        ],
+        [
+          "SALES-9012",
+          "Add Integration Bypass to Address Postal Code Length Validation",
+          1
+        ],
+        [
+          "SALES-9014",
+          "zendesk tickets 5/14 sprint",
+          2
+        ]
+      ],
+      "carry": []
+    },
+    "Grace Saint": {
+      "done": [
+        [
+          "SALES-8831",
+          "Investigate Sumo Batch for not assigning license",
+          2
+        ],
+        [
+          "SALES-8912",
+          "Salesforce Staging Refresh | Real Partners",
+          1
+        ],
+        [
+          "SALES-8936",
+          "Review What Alternate Platforms can Enable Voice Agents",
+          3
+        ],
+        [
+          "SALES-8954",
+          "Update ContactTriggerHandler to set Phone on Open Opps",
+          1
+        ],
+        [
+          "SALES-8955",
+          "Releases: Enable Accessibility Enhancements for Date Pickers, Popovers, Bottom Utility Bars, Record Headers",
+          1
+        ],
+        [
+          "SALES-8981",
+          "Summer 26 Release| Real Partners",
+          1
+        ],
+        [
+          "SALES-9006",
+          "Salesforce Validations Part II",
+          1
+        ],
+        [
+          "SALES-9017",
+          "Grace Zendesk Tickets 5/14 - 5/27",
+          1
+        ],
+        [
+          "SALES-9023",
+          "SGO IS Leads Not Populating Correctly",
+          1
+        ],
+        [
+          "SALES-9040",
+          "Pull 20th of Month Real Partner Reports",
+          1
+        ]
+      ],
+      "carry": []
+    },
+    "Navinchandra Gupta": {
+      "done": [
+        [
+          "SALES-8875",
+          "Clean up Q1 Epics",
+          2
+        ],
+        [
+          "SALES-9004",
+          "Update Unsupported Platform SOAP API login()",
+          2
+        ],
+        [
+          "SALES-9018",
+          "Q2-2026 User Access Reviews (UAR): May 29, 2026",
+          2
+        ],
+        [
+          "SALES-9019",
+          "Certification:   Sales Cloud Uncorrelated User Access Review Q2 2026",
+          1
+        ],
+        [
+          "SALES-9020",
+          "Certification:   Manager's User Access Review - Q2 2026",
+          1
+        ],
+        [
+          "SALES-9042",
+          "Zendesk Bug Ticket Holder (May 14 - May 27)",
+          2
+        ]
+      ],
+      "carry": []
+    },
+    "Nag Malluru": {
+      "done": [
+        [
+          "SALES-8935",
+          "Update Voice Agent Design to Account for Requirements",
+          2
+        ],
+        [
+          "SALES-8978",
+          "Integration Landscape and Data Flow Diagrams",
+          3
+        ],
+        [
+          "SALES-8983",
+          "Summer 26 Release | Shipping Happy Path",
+          1
+        ],
+        [
+          "SALES-8993",
+          "Summer 26 Release | Slack - HelloSign",
+          1
+        ],
+        [
+          "SALES-9013",
+          "Nag - Zendesk Tickets 5/14-5/27",
+          2
+        ]
+      ],
+      "carry": []
+    },
+    "Gustavo Silva": {
+      "done": [
+        [
+          "SALES-8976",
+          "SlackPlatformEventTriggerHandler | An unhandled fault has occurred in this flow",
+          1
+        ],
+        [
+          "SALES-8982",
+          "Summer 26 Release | SF - Admin Sync",
+          1
+        ],
+        [
+          "SALES-8984",
+          "Summer 26 Release | Vendor Bulk Upload",
+          1
+        ],
+        [
+          "SALES-8985",
+          "Summer 26 Release - Funnel testing in staging after the css fix",
+          1
+        ],
+        [
+          "SALES-9008",
+          "Multiple duplicate opportunities being created using the New Opportunity button on the contact",
+          1
+        ],
+        [
+          "SALES-9009",
+          "[2026-05-14]Force Sync of Consignment Items from Admin to Salesforce",
+          1
+        ],
+        [
+          "SALES-9022",
+          "[2026-05-15]Force Sync of Consignment Items from Admin to Salesforce",
+          1
+        ],
+        [
+          "SALES-9026",
+          "[2026-05-19]Force Sync of Consignment Items from Admin to Salesforce",
+          1
+        ],
+        [
+          "SALES-9044",
+          "[2026-05-20]Force Sync of Consignment Items from Admin to Salesforce",
+          1
+        ],
+        [
+          "SALES-9045",
+          "push_topic.cls not running on mac when finalizing the deploy.sh script",
+          1
+        ],
+        [
+          "SALES-9059",
+          "Troubleshoot and fix sfConvertLeadApptWizard.test.js in the qe-mocha-automation repo",
+          1
+        ],
+        [
+          "SALES-9061",
+          "Retry oban jobs of leads that failed to convert from supply from 2026-05-19",
+          1
+        ],
+        [
+          "SALES-9063",
+          "Addresses not being saved correctly when using the edit button on the layout",
+          1
+        ],
+        [
+          "SALES-9064",
+          "bump GitHub Actions pins for Node 20 deprecation on setup-sfdx action",
+          1
+        ],
+        [
+          "SALES-9065",
+          "Improve error handling of OpportunityTriggerHelper.updateContactOwner",
+          1
+        ],
+        [
+          "SALES-9066",
+          "InquiryFinalize exceptions being sent through email and not to bugsnag",
+          1
+        ],
+        [
+          "SELLTECH-1050",
+          "Create a batch job to calculate Booster NC Credit on Opportunity",
+          3
+        ],
+        [
+          "SELLTECH-1051",
+          "Update Record Trigger: Consignment Order Items Object (Comp Calc) to use new logic",
+          2
+        ]
+      ],
+      "carry": []
+    },
+    "Sai Deepika Kanuri": {
+      "done": [
+        [
+          "SALES-8877",
+          "Update the Retail Value Credit Formula on Comp Calculation Record for Boosted NC Credit",
+          2
+        ],
+        [
+          "SALES-8950",
+          "GM Quota Discount",
+          2
+        ],
+        [
+          "SALES-8990",
+          "Summer 26 Release | Commissions",
+          1
+        ],
+        [
+          "SALES-9027",
+          "Backfill NC Count data and Recalculate value credit",
+          1
+        ]
+      ],
+      "carry": []
+    }
+  },
+  "committed_points": null,
+  "removed_mid_sprint": null,
+  "scope_change_pct": null
+}

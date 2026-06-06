@@ -1,0 +1,53 @@
+{
+  "issues": [
+    {
+      "key": "SELLTECH-1050",
+      "fields": {
+        "summary": "Create a batch job to calculate Booster NC Credit on Opportunity",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-04-21T12:44:07.344-0700",
+        "resolutiondate": "2026-05-27T14:09:35.031-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Gustavo Silva"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "ARB_Requested",
+          "In_QA",
+          "SRT-Product"
+        ],
+        "customfield_10026": 3
+      }
+    },
+    {
+      "key": "SELLTECH-1051",
+      "fields": {
+        "summary": "Update Record Trigger: Consignment Order Items Object (Comp Calc) to use new logic",
+        "issuetype": {
+          "name": "Story"
+        },
+        "created": "2026-04-21T12:45:02.814-0700",
+        "resolutiondate": "2026-05-27T14:09:56.776-0700",
+        "customfield_10142": null,
+        "assignee": {
+          "displayName": "Gustavo Silva"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "labels": [
+          "ARB_Requested",
+          "In_QA",
+          "SRT-Product"
+        ],
+        "customfield_10026": 2
+      }
+    }
+  ],
+  "isLast": true
+}
