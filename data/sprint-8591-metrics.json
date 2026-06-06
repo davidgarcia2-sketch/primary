@@ -139,6 +139,134 @@
       "created": "2026-05-26T08:40:00.809-0700"
     }
   ],
+  "summer_may12_created": [
+    {
+      "key": "SALES-8980",
+      "summary": "Summer 26 Release | Zoom, Address Validation, Lead Assignment, Lead Conversion",
+      "points": 1,
+      "created": "2026-05-12T09:50:33.479-0700"
+    },
+    {
+      "key": "SALES-8981",
+      "summary": "Summer 26 Release| Real Partners",
+      "points": 1,
+      "created": "2026-05-12T09:53:06.331-0700"
+    },
+    {
+      "key": "SALES-8982",
+      "summary": "Summer 26 Release | SF - Admin Sync",
+      "points": 1,
+      "created": "2026-05-12T09:54:31.138-0700"
+    },
+    {
+      "key": "SALES-8983",
+      "summary": "Summer 26 Release | Shipping Happy Path",
+      "points": 1,
+      "created": "2026-05-12T09:55:56.319-0700"
+    },
+    {
+      "key": "SALES-8984",
+      "summary": "Summer 26 Release | Vendor Bulk Upload",
+      "points": 1,
+      "created": "2026-05-12T09:57:05.849-0700"
+    },
+    {
+      "key": "SALES-8985",
+      "summary": "Summer 26 Release - Funnel testing in staging after the css fix",
+      "points": 1,
+      "created": "2026-05-12T09:58:19.027-0700"
+    },
+    {
+      "key": "SALES-8986",
+      "summary": "Summer 26 Release | Add Item",
+      "points": 1,
+      "created": "2026-05-12T09:59:15.713-0700"
+    },
+    {
+      "key": "SALES-8987",
+      "summary": "Summer 26 Release | Lead Conversion Self Gen Referrals",
+      "points": null,
+      "created": "2026-05-12T10:00:40.128-0700"
+    },
+    {
+      "key": "SALES-8988",
+      "summary": "Summer 26 Release | VO Doc Test",
+      "points": 1,
+      "created": "2026-05-12T10:01:43.397-0700"
+    },
+    {
+      "key": "SALES-8989",
+      "summary": "Summer 26 Release | SUMO Scheduling on Lead",
+      "points": 1,
+      "created": "2026-05-12T10:04:10.321-0700"
+    },
+    {
+      "key": "SALES-8990",
+      "summary": "Summer 26 Release | Commissions",
+      "points": 1,
+      "created": "2026-05-12T10:05:13.391-0700"
+    },
+    {
+      "key": "SALES-8991",
+      "summary": "Summer 26 Release | As a sales rep create a self-generated referral and convert it to an opportunity. - using the standard lead button.",
+      "points": null,
+      "created": "2026-05-12T10:06:56.652-0700"
+    },
+    {
+      "key": "SALES-8992",
+      "summary": "Summer 26 Release | VO Doc Process",
+      "points": null,
+      "created": "2026-05-12T10:08:47.924-0700"
+    },
+    {
+      "key": "SALES-8993",
+      "summary": "Summer 26 Release | Slack - HelloSign",
+      "points": 1,
+      "created": "2026-05-12T10:10:43.354-0700"
+    },
+    {
+      "key": "SALES-8994",
+      "summary": "Summer 26 Release | Zoom",
+      "points": null,
+      "created": "2026-05-12T10:14:05.391-0700"
+    },
+    {
+      "key": "SALES-8995",
+      "summary": "Summer 26 Release | Address Validation",
+      "points": null,
+      "created": "2026-05-12T10:15:23.578-0700"
+    },
+    {
+      "key": "SALES-8996",
+      "summary": "Summer 26 Release | HelloSign",
+      "points": null,
+      "created": "2026-05-12T10:16:29.710-0700"
+    },
+    {
+      "key": "SALES-8997",
+      "summary": "Summer 26 Release | SUMO Scheduling on CLP and Cancelling",
+      "points": 1,
+      "created": "2026-05-12T10:17:51.737-0700"
+    },
+    {
+      "key": "SALES-8998",
+      "summary": "Summer 26 Release | SUMO QA- Book SGO Retail Appt",
+      "points": null,
+      "created": "2026-05-12T10:19:02.675-0700"
+    },
+    {
+      "key": "SALES-8999",
+      "summary": "Summer 26 Release | SUMO Scheduling, Update & Cancel on Opp",
+      "points": 1,
+      "created": "2026-05-12T10:20:05.118-0700"
+    },
+    {
+      "key": "SALES-9000",
+      "summary": "Summer 26 Release | SUMO and Commissions Quick test",
+      "points": null,
+      "created": "2026-05-12T10:21:21.130-0700"
+    }
+  ],
   "per_engineer": {
     "Alex Burton": {
       "done": [

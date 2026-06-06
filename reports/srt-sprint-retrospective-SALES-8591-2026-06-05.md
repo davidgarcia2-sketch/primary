@@ -51,7 +51,7 @@ The sprint closed **cleanly with zero carry-over** while delivering **very high 
 #### Scope Creep & Mid-Sprint Changes
 
 - **Full list (all tickets):** **Not produced in this run** (requires `getJiraIssue` + `expand=changelog` for all **88** keys).
-- **Observed mid-sprint creation pattern:** **0** tickets in the **Summer '26 Release** family were **created 2026-05-12** (before official sprint start on **2026-05-14**) — keys **`SALES-8980`** through **`SALES-9000`** plus security spikes **`SALES-9001`**, **`SALES-9003`**, **`SALES-9004`**. This represents a **large scope injection** tied to release validation, not ad-hoc churn.
+- **Observed mid-sprint creation pattern:** **21** tickets in the **Summer '26 Release** family were **created 2026-05-12** (before official sprint start on **2026-05-14**) — keys **`SALES-8980`** through **`SALES-9000`** plus security spikes **`SALES-9001`**, **`SALES-9003`**, **`SALES-9004`**. This represents a **large scope injection** tied to release validation, not ad-hoc churn.
 - **Illustrative example — `SALES-8980`:** Created **2026-05-12**, added to sprint before start; story points adjusted **null → 1 → 2 → 1** by Navinchandra Gupta / Alex Burton before/during sprint start (per prior changelog review).
 - **Won't Do de-scoping:** **13** tickets closed as **Won't Do** (mostly duplicate Summer '26 sub-tickets consolidated into parent work).
 
@@ -151,4 +151,4 @@ Counts below are **`status = Done`** in sprint **8591** only.
 2. **Only 33 / 118 sprint points carry `SRT-Product` (28.0%).** Which completed comp/quota items (`SALES-8876`–`SALES-8879`, `SELLTECH-1050`/`1051`) were true product work but **missing labels**?
 3. **Zero carry-over despite 75 completions — but `SALES-8551` resolved 2026-06-03 and `SALES-8978` resolved 2026-05-28 after sprint end.** Should the team adopt a **hard rule** that sprint closure requires resolution within sprint boundaries, or accept **administrative tail** for multi-sprint items?
 4. **19 bugs closed with zero “Reason for Bug” in Jira.** Do we gate **Done** transitions on `customfield_10142` for bugs (same gap as sprint 8190)?
-5. **0 Summer '26 tickets were bulk-created 2026-05-12, two days before sprint start.** Could **release checklists** be templated earlier so QA scope does not appear as a **surprise batch** at sprint boundary?
+5. **21 Summer '26 tickets were bulk-created 2026-05-12, two days before sprint start.** Could **release checklists** be templated earlier so QA scope does not appear as a **surprise batch** at sprint boundary?
