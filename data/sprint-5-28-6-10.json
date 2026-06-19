@@ -1,0 +1,1266 @@
+[
+  {
+    "key": "SALES-8550",
+    "fields": {
+      "summary": "Bump Controller classes from API Version 54 to 65 - Ticket 2 of 2",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Michael Criswell"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "CAB_Approved",
+        "In_QA",
+        "PR_created",
+        "Ready_For_QA"
+      ],
+      "created": "2026-02-09T12:00:00.000-0700",
+      "resolutiondate": "2026-06-03T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-8551",
+    "fields": {
+      "summary": "Bump Batch classes from API Version 54 to 66 - Ticket 1 of 2",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Chris Burns"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "CAB_Approved",
+        "In_QA",
+        "PR_created",
+        "QA_Completed",
+        "Ready_For_QA"
+      ],
+      "created": "2026-02-09T12:00:00.000-0700",
+      "resolutiondate": "2026-06-03T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-8552",
+    "fields": {
+      "summary": "Bump Batch classes from API Version 54 to 65 - Ticket 2 of 2",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Michael Criswell"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "CAB_Approved",
+        "In_QA",
+        "PR_created",
+        "Ready_For_QA"
+      ],
+      "created": "2026-02-09T12:00:00.000-0700",
+      "resolutiondate": "2026-06-03T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-8553",
+    "fields": {
+      "summary": "Bump Mock classes from API Version 54 to 66",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Chris Burns"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "ARB_Not_Required",
+        "CAB_Approved",
+        "DescriptionTooShort",
+        "In_QA",
+        "PR_created",
+        "Ready_For_QA"
+      ],
+      "created": "2026-02-09T12:00:00.000-0700",
+      "resolutiondate": "2026-06-04T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-8650",
+    "fields": {
+      "summary": "Update sumo tests regarding Dec 27 warning",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Gustavo Silva"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "NeedsAcceptanceCriteria",
+        "automation",
+        "seller"
+      ],
+      "created": "2024-12-31T12:00:00.000-0700",
+      "resolutiondate": "2026-06-03T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-8801",
+    "fields": {
+      "summary": "Identify all fields in Salesforce without a Description",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Spike"
+      },
+      "assignee": {
+        "displayName": "Navinchandra Gupta"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "SRT-Product"
+      ],
+      "created": "2026-04-01T12:00:00.000-0700",
+      "resolutiondate": "2026-06-09T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-8918",
+    "fields": {
+      "summary": "Turn on Inbox",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Spike"
+      },
+      "assignee": {
+        "displayName": "Jummy Sanni"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "DescriptionTooShort",
+        "NeedsAcceptanceCriteria",
+        "SRT-Product",
+        "salesforce"
+      ],
+      "created": "2026-04-27T12:00:00.000-0700",
+      "resolutiondate": "2026-06-04T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-8920",
+    "fields": {
+      "summary": "Update reporting to reflect TRR Price instead of List Price",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Sai Deepika Kanuri"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "SRT-Product",
+        "salesforce"
+      ],
+      "created": "2026-04-27T12:00:00.000-0700",
+      "resolutiondate": "2026-06-08T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-8965",
+    "fields": {
+      "summary": "Backfill price differences between SF and Admin",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Gustavo Silva"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "NeedsAcceptanceCriteria"
+      ],
+      "created": "2026-05-07T12:00:00.000-0700",
+      "resolutiondate": "2026-06-02T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-8966",
+    "fields": {
+      "summary": "T&C Acceptance Tracking",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Spike"
+      },
+      "assignee": {
+        "displayName": "Chris Burns"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "salesforce"
+      ],
+      "created": "2026-05-07T12:00:00.000-0700",
+      "resolutiondate": "2026-06-09T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-8968",
+    "fields": {
+      "summary": "May.'26 SUMO Sync Issue",
+      "status": {
+        "name": "Won't Do"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": null,
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [],
+      "created": "2026-05-07T12:00:00.000-0700",
+      "resolutiondate": "2026-05-28T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-8978",
+    "fields": {
+      "summary": "Integration Landscape and Data Flow Diagrams",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Spike"
+      },
+      "assignee": {
+        "displayName": "Nag Malluru"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [],
+      "created": "2026-05-11T12:00:00.000-0700",
+      "resolutiondate": "2026-05-28T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9024",
+    "fields": {
+      "summary": "Q2 Incentive Changes Deployment Placeholder",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Sai Deepika Kanuri"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "SRT-Product",
+        "commisions"
+      ],
+      "created": "2026-05-15T12:00:00.000-0700",
+      "resolutiondate": "2026-06-02T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9028",
+    "fields": {
+      "summary": "Real Partners W-9 Link Errors",
+      "status": {
+        "name": "Won't Do"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": {
+        "displayName": "Michael Criswell"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [],
+      "created": "2026-05-18T12:00:00.000-0700",
+      "resolutiondate": "2026-05-29T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9043",
+    "fields": {
+      "summary": "SUMO Service Rooms",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": {
+        "displayName": "Sai Deepika Kanuri"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [],
+      "created": "2026-05-18T12:00:00.000-0700",
+      "resolutiondate": "2026-06-02T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9046",
+    "fields": {
+      "summary": "Real Partners: Two referral records being created when a RP Consignor signs up through Affiliate link",
+      "status": {
+        "name": "Won't Do"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": {
+        "displayName": "Grace Saint"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "ARB_Not_Required"
+      ],
+      "created": "2026-05-19T12:00:00.000-0700",
+      "resolutiondate": "2026-06-02T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9047",
+    "fields": {
+      "summary": "Research how we can create conversational consignor summaries",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Spike"
+      },
+      "assignee": {
+        "displayName": "Grace Saint"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [],
+      "created": "2026-05-19T12:00:00.000-0700",
+      "resolutiondate": "2026-06-08T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9060",
+    "fields": {
+      "summary": "Review and Categorization of Remaining Zendesk Tickets",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Spike"
+      },
+      "assignee": {
+        "displayName": "Alex Burton"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "salesforce",
+        "zendesk"
+      ],
+      "created": "2026-05-20T12:00:00.000-0700",
+      "resolutiondate": "2026-06-04T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9067",
+    "fields": {
+      "summary": "SGO LWC: Referral Not Saving for Certain Users",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": {
+        "displayName": "Grace Saint"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "ARB_Not_Required",
+        "PR_not_required",
+        "salesforce"
+      ],
+      "created": "2026-05-26T12:00:00.000-0700",
+      "resolutiondate": "2026-06-01T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9068",
+    "fields": {
+      "summary": "OpportunityTriggerHelper.populateMatchedAdvocateContact | Missing Contact.Owner from SOQL",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": {
+        "displayName": "Gustavo Silva"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "CAB_Approved",
+        "In_QA",
+        "PR_created",
+        "QA_Completed",
+        "Ready_For_QA"
+      ],
+      "created": "2026-05-27T12:00:00.000-0700",
+      "resolutiondate": "2026-06-02T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9069",
+    "fields": {
+      "summary": "SumoEmailScheduler.getConsignor | consignor not found. Appt Id: XXXX",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": {
+        "displayName": "Gustavo Silva"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "CAB_Approved",
+        "In_QA",
+        "PR_created",
+        "QA_Completed"
+      ],
+      "created": "2026-05-27T12:00:00.000-0700",
+      "resolutiondate": "2026-06-03T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9070",
+    "fields": {
+      "summary": "CLONE - Summer 26 Release | Vendor Bulk Upload",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Gustavo Silva"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "CAB_Approved",
+        "DescriptionTooShort",
+        "In_QA",
+        "NeedsAcceptanceCriteria",
+        "PR_created",
+        "QA_Completed",
+        "Ready_For_QA"
+      ],
+      "created": "2026-05-27T12:00:00.000-0700",
+      "resolutiondate": "2026-06-08T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9071",
+    "fields": {
+      "summary": "Related Real Partner Not Tagging on New Referral Records",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": {
+        "displayName": "Grace Saint"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "ARB_Not_Required",
+        "CAB_Approved",
+        "PR_created",
+        "QA_Completed"
+      ],
+      "created": "2026-05-27T12:00:00.000-0700",
+      "resolutiondate": "2026-06-09T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9072",
+    "fields": {
+      "summary": "Deployer Access for Salesforce-CRM Repo - May 2026",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Navinchandra Gupta"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "NeedsAcceptanceCriteria",
+        "deployer-access",
+        "salesforce",
+        "sox-audit"
+      ],
+      "created": "2026-05-27T12:00:00.000-0700",
+      "resolutiondate": "2026-06-01T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9073",
+    "fields": {
+      "summary": "6/1/26 - 6/8/26 Cohorts",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Alex Burton"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "NeedsAcceptanceCriteria",
+        "PR_not_required"
+      ],
+      "created": "2026-05-27T12:00:00.000-0700",
+      "resolutiondate": "2026-06-09T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9074",
+    "fields": {
+      "summary": "[UNABLE_TO_LOCK_ROW] SFDC Error Developer script exception from The RealReal",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Spike"
+      },
+      "assignee": {
+        "displayName": "Chris Burns"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "bug",
+        "salesforce"
+      ],
+      "created": "2026-05-27T12:00:00.000-0700",
+      "resolutiondate": "2026-06-03T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9078",
+    "fields": {
+      "summary": "Review and Rationalization of Salesforce Distribution Lists",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Spike"
+      },
+      "assignee": {
+        "displayName": "Navinchandra Gupta"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "ARB_Not_Required",
+        "PR_not_required",
+        "salesforce"
+      ],
+      "created": "2026-05-27T12:00:00.000-0700",
+      "resolutiondate": "2026-06-10T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9079",
+    "fields": {
+      "summary": "Phishing-Resistant Multi-Factor Authentication (MFA) for Privileged Users, including Admins",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Michael Criswell"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [],
+      "created": "2026-05-27T12:00:00.000-0700",
+      "resolutiondate": "2026-06-10T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9080",
+    "fields": {
+      "summary": "Backfill Consignment_Order_Item__c.Available_Date__c from 05/06 until 05/27",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Gustavo Silva"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "DescriptionTooShort",
+        "NeedsAcceptanceCriteria"
+      ],
+      "created": "2026-05-27T12:00:00.000-0700",
+      "resolutiondate": "2026-05-27T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9081",
+    "fields": {
+      "summary": "Consignment First Available Date Inaccuracies",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": {
+        "displayName": "Gustavo Silva"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [],
+      "created": "2026-05-27T12:00:00.000-0700",
+      "resolutiondate": "2026-05-28T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9082",
+    "fields": {
+      "summary": "June: Campaign Member Uploads",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Grace Saint"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "ARB_Not_Required",
+        "NeedsAcceptanceCriteria",
+        "salesforce"
+      ],
+      "created": "2026-05-27T12:00:00.000-0700",
+      "resolutiondate": "2026-05-28T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9083",
+    "fields": {
+      "summary": "Add a realreal.com Authorized Email Domain in Production",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Navinchandra Gupta"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "ARB_Not_Required",
+        "NeedsAcceptanceCriteria",
+        "PR_not_required",
+        "salesforce"
+      ],
+      "created": "2026-05-27T12:00:00.000-0700",
+      "resolutiondate": "2026-06-01T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9084",
+    "fields": {
+      "summary": "SFMC email: Consignment Received with Item List Summary Email Sent",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": {
+        "displayName": "Gustavo Silva"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "CAB_Approved",
+        "In_QA",
+        "PR_created",
+        "QA_Completed"
+      ],
+      "created": "2026-05-27T12:00:00.000-0700",
+      "resolutiondate": "2026-06-03T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9085",
+    "fields": {
+      "summary": "ZD Tickets: 5/28 - 6/10",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Jummy Sanni"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "DescriptionTooShort",
+        "NeedsAcceptanceCriteria",
+        "SRT-Product",
+        "salesforce"
+      ],
+      "created": "2026-05-28T12:00:00.000-0700",
+      "resolutiondate": "2026-06-10T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9086",
+    "fields": {
+      "summary": "Nag - Zendesk Bucket - 05/28-6/10",
+      "status": {
+        "name": "Won't Do"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": {
+        "displayName": "Nag Malluru"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [],
+      "created": "2026-05-28T12:00:00.000-0700",
+      "resolutiondate": "2026-06-08T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9087",
+    "fields": {
+      "summary": "Zendesk 5/28 Sprint",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": {
+        "displayName": "Chris Burns"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [],
+      "created": "2026-05-28T12:00:00.000-0700",
+      "resolutiondate": "2026-06-10T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9088",
+    "fields": {
+      "summary": "Zendesk Tickets 5/28-6/10",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": {
+        "displayName": "Grace Saint"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "ARB_Not_Required"
+      ],
+      "created": "2026-05-28T12:00:00.000-0700",
+      "resolutiondate": "2026-06-10T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9089",
+    "fields": {
+      "summary": "CI/CD pipeline breaking because of Enabling Deliverability Substitute Email step",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Gustavo Silva"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "CAB_Approved",
+        "In_QA",
+        "NeedsAcceptanceCriteria",
+        "PR_created",
+        "QA_Completed"
+      ],
+      "created": "2026-05-28T12:00:00.000-0700",
+      "resolutiondate": "2026-06-01T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9105",
+    "fields": {
+      "summary": "Alex Zendesk Ticket 5/28 - 6/10",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": {
+        "displayName": "Alex Burton"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "PR_not_required"
+      ],
+      "created": "2026-05-28T12:00:00.000-0700",
+      "resolutiondate": "2026-06-10T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9106",
+    "fields": {
+      "summary": "Salesforce | Accept referral_code and advocate_user_id on inquiry platform event",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Gustavo Silva"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "CAB_Approved",
+        "In_QA",
+        "NeedsAcceptanceCriteria",
+        "PR_created"
+      ],
+      "created": "2026-05-28T12:00:00.000-0700",
+      "resolutiondate": "2026-06-04T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9109",
+    "fields": {
+      "summary": "June Sales Quota uploads",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Sai Deepika Kanuri"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "NeedsAcceptanceCriteria"
+      ],
+      "created": "2026-05-31T12:00:00.000-0700",
+      "resolutiondate": "2026-06-01T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9110",
+    "fields": {
+      "summary": "Upload Double Point Matrix and Point Matrix new uploads",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Sai Deepika Kanuri"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "NeedsAcceptanceCriteria"
+      ],
+      "created": "2026-06-01T12:00:00.000-0700",
+      "resolutiondate": "2026-06-04T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9114",
+    "fields": {
+      "summary": "Send 5th of Month CSVs to Real Partners Marketing Team",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Task"
+      },
+      "assignee": {
+        "displayName": "Grace Saint"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "ARB_Approved_Not_required",
+        "PR_not_required",
+        "salesforce"
+      ],
+      "created": "2026-06-02T12:00:00.000-0700",
+      "resolutiondate": "2026-06-02T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9115",
+    "fields": {
+      "summary": "Zendesk Bug Ticket Holder (May 28 - June 10)",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": {
+        "displayName": "Navinchandra Gupta"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "ARB_Not_Required",
+        "PR_not_required",
+        "jira_escalated",
+        "salesforce",
+        "zendesk"
+      ],
+      "created": "2026-06-02T12:00:00.000-0700",
+      "resolutiondate": "2026-06-04T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9119",
+    "fields": {
+      "summary": "Change deploy-to-staging skill to be able to deploy to any sandbox",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Gustavo Silva"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "CAB_Approved",
+        "DescriptionTooShort",
+        "In_QA",
+        "NeedsAcceptanceCriteria",
+        "PR_created",
+        "QA_Completed"
+      ],
+      "created": "2024-04-22T12:00:00.000-0700",
+      "resolutiondate": "2026-06-08T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9124",
+    "fields": {
+      "summary": "Migrate sfConvertLeadSumoCal.test.js to use new createSGOLead method",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Gustavo Silva"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "NeedsAcceptanceCriteria",
+        "PR_created",
+        "QA_Completed"
+      ],
+      "created": "2025-06-27T12:00:00.000-0700",
+      "resolutiondate": "2026-06-09T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9127",
+    "fields": {
+      "summary": "Fix COI Comp Flow to only trigger if New Consignor Multiplier changes and Available Date is populated",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": {
+        "displayName": "Gustavo Silva"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "ARB_Not_Required",
+        "In_QA",
+        "PR_created"
+      ],
+      "created": "2026-06-04T12:00:00.000-0700",
+      "resolutiondate": "2026-06-04T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9134",
+    "fields": {
+      "summary": "Backfill for the bug in Production for comp",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Sai Deepika Kanuri"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "NeedsAcceptanceCriteria"
+      ],
+      "created": "2026-06-04T12:00:00.000-0700",
+      "resolutiondate": "2026-06-04T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9142",
+    "fields": {
+      "summary": "Duplicate COIs",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": {
+        "displayName": "Gustavo Silva"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [],
+      "created": "2026-06-05T12:00:00.000-0700",
+      "resolutiondate": "2026-06-09T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9145",
+    "fields": {
+      "summary": "Remove Data Mask package",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Nag Malluru"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [],
+      "created": "2026-06-08T12:00:00.000-0700",
+      "resolutiondate": "2026-06-09T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9165",
+    "fields": {
+      "summary": "Hellosign contract Signature is not displaying properly on iPad",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Bug"
+      },
+      "assignee": {
+        "displayName": "Nag Malluru"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [],
+      "created": "2026-06-09T12:00:00.000-0700",
+      "resolutiondate": "2026-06-10T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9174",
+    "fields": {
+      "summary": "CLONE - Backfill AUR_Contributing_Price__c field",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Task"
+      },
+      "assignee": {
+        "displayName": "Michael Criswell"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [],
+      "created": "2026-06-10T12:00:00.000-0700",
+      "resolutiondate": "2026-06-10T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9175",
+    "fields": {
+      "summary": "CLONE - Create SUMO Calendar Knowledge Article",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Jummy Sanni"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "NeedsAcceptanceCriteria",
+        "SRT-Product",
+        "salesforce"
+      ],
+      "created": "2026-06-10T12:00:00.000-0700",
+      "resolutiondate": "2026-06-10T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9177",
+    "fields": {
+      "summary": "CLONE - Technical Design for Outreach Optimization",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Story"
+      },
+      "assignee": {
+        "displayName": "Nag Malluru"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [],
+      "created": "2026-06-10T12:00:00.000-0700",
+      "resolutiondate": "2026-06-10T12:00:00.000-0700"
+    }
+  },
+  {
+    "key": "SALES-9185",
+    "fields": {
+      "summary": "CLONE - SMS/Phone Automation",
+      "status": {
+        "name": "Done"
+      },
+      "issuetype": {
+        "name": "Spike"
+      },
+      "assignee": {
+        "displayName": "Jummy Sanni"
+      },
+      "customfield_10016": null,
+      "customfield_10142": null,
+      "labels": [
+        "SRT-Product"
+      ],
+      "created": "2026-06-10T12:00:00.000-0700",
+      "resolutiondate": "2026-06-10T12:00:00.000-0700"
+    }
+  }
+]
