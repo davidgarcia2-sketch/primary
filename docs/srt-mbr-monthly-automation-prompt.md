@@ -579,4 +579,68 @@ Include a brief summary of what was pulled from Jira only if the page could not 
 
 ---
 
-*End of prompt. Copy from "Mission" through "Step 7" into your Cursor Automation agent instructions.*
+## Step 8 — Draft prompt improvement recommendations (required)
+
+After completing the MBR data pull (or after a partial/failed run), review what you learned during execution. Draft a **recommendations markdown file** so future runs can be more efficient.
+
+**Do not edit the live automation prompt yourself.** Only produce a recommendations file for human review and merge.
+
+### When to write recommendations
+
+Always create a recommendations file at the end of every run — including failures and duplicate-skip runs.
+
+Capture learnings when you encounter: unexpected empty JQL results, wrong field IDs/labels, pagination limits, mis-classification, clone dedup ambiguity, Notion formatting issues, redundant queries, better data sources, or any workaround you invented.
+
+If the run was clean: still create the file with `No prompt changes recommended this run` in the executive summary.
+
+### Output file (one per run — never overwrite)
+
+**Notion (preferred):** New child page under parent `388d553c3a2e803597ebf5ee2265a3e7`  
+**Title:** `MBR Prompt Recommendations - run {run_date}.md`
+
+**Repository (if git write available):** `docs/srt-mbr-prompt-recommendations/{run_date}.md`  
+Commit message: `MBR agent prompt recommendations {run_date}`
+
+If both are available, write both.
+
+### Recommendations file structure
+
+Use the full template in `docs/srt-mbr-prompt-self-improvement-addon-prompt.md`. Minimum sections:
+
+1. Executive summary + recommendation count by priority
+2. **Proposed prompt changes** — numbered `REC-001`, each with: priority, section affected, problem, evidence, proposed text (current vs proposed), expected benefit, risk
+3. **Discovered constants** — table of assumed vs actual Jira values
+4. **Query efficiency log** — JQL, counts, redundancy notes
+5. **Data gaps** — what blocked accuracy
+6. **Items reviewed — no change recommended**
+7. **For the human reviewer** — checklist (leave notes blank)
+
+### Recommendation rules
+
+- Be specific: exact JQL, field IDs, label strings, or prompt sentences
+- Every REC must cite evidence from this run (ticket key, count, error)
+- One concern per REC item
+- Priority: **High** = wrong data/failure; **Medium** = inefficiency/frequent TBD; **Low** = cosmetic
+- Flag permission-blocked ideas as `Blocked: needs human setup`
+- Reference canonical prompt: `docs/srt-mbr-monthly-automation-prompt.md`
+
+### Add to final user response
+
+After the MBR Notion URL (Step 7), include:
+
+```
+**Prompt recommendations:** {Notion URL or docs/srt-mbr-prompt-recommendations/{run_date}.md}
+```
+
+If recommendations file could not be created: `**Prompt recommendations:** TBD — {reason}`
+
+### What NOT to do
+
+- Do not modify the live prompt files during the run
+- Do not overwrite prior recommendations files
+- Do not recommend changes without run evidence
+- Do not skip the file when the MBR run fails
+
+---
+
+*End of prompt. Copy from "Mission" through "Step 8" into your Cursor Automation agent instructions.*
