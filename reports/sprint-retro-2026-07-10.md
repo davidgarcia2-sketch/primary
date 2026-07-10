@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-Sprint **Sales 6/25 - 7/8** closed with strong throughput — **109 story points** completed across **81 tickets** with **zero carry-over**. Execution was front-loaded on ALRA routing and security work early in the sprint, but delivery was **late-heavy**: nearly half of completed points landed in the final three days (7/7–7/9), indicating a sprint-end push rather than steady daily flow. The biggest win was closing the full ALRA routing epic chain (SALES-9129, SALES-9135, SALES-9140, SALES-9224) plus the Apex CPU timeout fix (SALES-6726). The biggest concern is **capacity misalignment**: only 3 tickets carried explicit `SRT-*` labels, pushing 72% of completed work into the buffer/unplanned bucket vs. a 20% target — and the **Reason for Bug** field was unpopulated on all 10 closed bugs.
+Sprint **Sales 6/25 - 7/8** closed with strong throughput — **109 story points** completed across **81 tickets** with **zero carry-over**. Execution was front-loaded on ALRA routing and security work early in the sprint, but delivery was **late-heavy**: nearly half of completed points landed in the final three days (7/7–7/9), indicating a sprint-end push rather than steady daily flow. The biggest win was closing the full ALRA routing epic chain (SALES-9129, SALES-9135, SALES-9140, SALES-9224) plus the Apex CPU timeout fix (SALES-6726). The biggest concern is **capacity misalignment**: only 3 tickets carried explicit `SRT-*` labels, pushing 62% of completed work into the buffer/unplanned bucket vs. a 20% target — and the **Reason for Bug** field was unpopulated on all 10 closed bugs.
 
 ---
 
@@ -146,10 +146,9 @@ Velocity is **flat to slightly up** compared to the prior three sprints, recover
 
 ### Jummy Sanni
 
-**Total points completed:** 12.0
+**Total points completed:** 11.0
 
 **Tickets completed:**
-- SALES-8478 — LCO Item Intake Field Review (1.0 pts)
 - SALES-8843 — Change the help text/description for Total Retail Price on Opportunity object (1.0 pts)
 - SALES-9075 — Create SUMO Calendar Knowledge Article Staging (3.0 pts)
 - SALES-9132 — This is an MGO this is an SGO -1 (2.0 pts)
@@ -305,7 +304,7 @@ No PT- tickets were in this sprint. SELLTECH-636 was added mid-sprint (7/1) as c
 
 1. **SALES-9392 was added on 7/9 (sprint close day), moved from Sales 7/9–7/22, and marked Done within minutes** — is this sprint-close hygiene inflating completion metrics, and should end-of-sprint ticket moves be discouraged?
 
-2. **72% of completed points landed in the buffer/unlabeled bucket** because only 3 of 90 tickets had `SRT-*` labels. Should we enforce label application at sprint planning, or accept keyword-based inference for retro reporting?
+2. **62% of completed points landed in the buffer/unlabeled bucket** because only 3 of 90 tickets had `SRT-*` labels. Should we enforce label application at sprint planning, or accept keyword-based inference for retro reporting?
 
 3. **48% of all points completed in the final 3 days (7/7–7/9)** — what blocked earlier delivery on ALRA stories (SALES-9135, SALES-9140) that sat in progress for 10+ days before closing? Is DevQA batching at sprint end creating artificial late-heavy burndowns?
 
