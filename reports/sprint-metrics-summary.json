@@ -1,0 +1,17 @@
+{
+  "sprint": "Sales 8/6 - 8/19",
+  "sprint_id": 9367,
+  "start": "2026-08-06",
+  "end": "2026-08-19",
+  "total_tickets": 109,
+  "completed_pts": 153,
+  "committed_start_est": 111,
+  "mid_sprint_adds": {
+    "tickets": 39,
+    "points": 47
+  },
+  "carryover": {
+    "tickets": 0,
+    "points": 0
+  }
+}
