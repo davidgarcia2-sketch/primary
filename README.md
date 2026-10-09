@@ -2,10 +2,19 @@
 
 Static test page that embeds a Salesforce Web-to-Lead form for org `00D1N000001BsY8`.
 
+## Shareable URL (GitHub Pages)
+
+After this branch is merged to `main`, enable Pages once:
+
+1. Repo **Settings → Pages**
+2. Source: **GitHub Actions**
+3. Site URL will be: `https://davidgarcia2-sketch.github.io/primary/`
+
+You can also run the **Deploy GitHub Pages** workflow manually from the Actions tab.
+
 ## Run locally
 
 ```bash
-# any static server works; for example:
 python3 -m http.server 8080
 ```
 
