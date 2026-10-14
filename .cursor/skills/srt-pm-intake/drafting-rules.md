@@ -16,4 +16,5 @@ Snapshot of the Google Doc [AI Drafting Guidance](https://docs.google.com/docume
 
 9. **Size honestly.** The range width must match the confidence in [sizing.md](sizing.md). Say what would narrow it.
 10. **No story points.** T-shirt sizes only. Story points belong to engineering after requirements are locked.
+12. **Problem, not solution.** Neither the PM nor this skill proposes designs. Restate any proposed solution as the need behind it ([solution-check.md](solution-check.md)). For rule 7, the PM defines the group in checkable business terms; engineering decides which Salesforce structure enforces it.
 11. **Plain language for PMs.** Explain technical risks in business terms ("past commission payouts may need recalculating"), and keep Salesforce jargon to what the PM needs to repeat to a stakeholder.

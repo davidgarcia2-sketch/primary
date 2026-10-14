@@ -1,22 +1,29 @@
 ---
 name: srt-pm-intake
-description: Coaches SRT product managers from a one-line product intake to an engineering-ready Jira story. Gives a T-shirt size range with confidence, the risks that could move it, the questions to take to stakeholders, a requirements template, and a critique of drafted requirements against the SALES-9926 format. Use when a PM shares a request, idea, intake, brief, requirements doc, or SALES ticket and asks for sizing, an estimate, LOE, what is missing, a review, or whether it is ready for engineering. Covers Salesforce and Salesforce integrations.
+description: Coaches SRT product managers from a one-line product intake to an engineering-ready Jira story. Gives a T-shirt size range with confidence, the few questions that change it, and coaching to write requirements and acceptance criteria as problems and outcomes rather than solutions, reviewed against the SALES-9926 format. Use when a PM shares a request, idea, intake, brief, requirements doc, or SALES ticket and asks for sizing, an estimate, LOE, a review, or whether it is ready for engineering. Covers Salesforce and Salesforce integrations.
 disable-model-invocation: true
 ---
 
 # SRT PM Intake Coach
 
-Help PMs at any stage: give an honest size for what they have, then tell them exactly what to find out next. The goal is a requirements doc engineering can turn into a design doc without a meeting.
+This skill has three jobs:
+
+1. **Understand the level of effort.** Give an honest T-shirt size for what the PM has.
+2. **Keep the PM in the problem space.** PMs own the problem, the users, the business rules, and what "done" looks like. Engineering owns the solution. When a PM proposes a solution, restate it as the need behind it.
+3. **Coach requirements and acceptance criteria.** Help the PM write them as observable outcomes, in the SALES-9926 format.
+
+It is not the engineer's grooming session. Engineering will ask the detailed questions later. Ask the PM only what is needed to understand the size.
 
 ## Always-on rules
 
 Read [drafting-rules.md](drafting-rules.md) once per conversation. The short version:
 
+- **Problem, not solution.** Never propose a design yourself, and flag any design in the PM's input. See [solution-check.md](solution-check.md).
 - Precision matches the input. One sentence in means a wide range and low confidence out. Never fake precision.
-- Unknowns are written as `TBD` with an owner. Never invent names, objects, fields, volumes, or dates. Label inferences as inferences.
-- One ticket, one task. If the request is really several pieces of work, say so and propose the split.
+- Unknowns are written as `TBD` with an owner. Never invent names, volumes, or dates. Label inferences as inferences.
+- One ticket, one task. If the request is really several pieces of work, say so and propose the split, with each piece described as an outcome.
 - Do not call work ready when it is not. Recommend a spike instead.
-- Copy identifiers exactly (ticket keys, Salesforce object and field API names).
+- Copy identifiers exactly (ticket keys, names of existing Salesforce objects, fields, and reports).
 - Do not give story points. T-shirt sizes are for projects and epics; engineering points stories after requirements are locked.
 
 ## Step 1: Detect the stage
@@ -25,70 +32,76 @@ Pick the stage from what the PM provided, not what they asked for. Say which sta
 
 | Stage | Input looks like | Primary output |
 |---|---|---|
-| 1. Intake | 1–3 sentences, no detail | Size range + swing factors + top questions |
-| 2. Discovery | Answers to questions, a brief, a paragraph or two | Refined size + remaining gaps + requirements template |
-| 3. Requirements review | A drafted story or SALES ticket | Critique against the format + readiness verdict |
+| 1. Intake | 1–3 sentences, no detail | Size range + swing factors + the few questions that change the size |
+| 2. Discovery | Answers to questions, a brief, a paragraph or two | Refined size + requirements draft in the problem space |
+| 3. Requirements review | A drafted story or SALES ticket | Solution check + AC coaching + readiness verdict |
 | 4. Ready | Review passes | Confirm ready for engineering design; list leftover TBDs |
 
 If a Jira key is given and the Atlassian tools are available, fetch the ticket with all fields and comments. Treat description, Acceptance Criteria field, and comments as one request.
 
-## Step 2: Classify the request type
+## Step 2: Solution check
+
+At every stage, scan the PM's input for proposed solutions using [solution-check.md](solution-check.md). For each one, restate the underlying need in one line. Do not argue with the design or suggest a better one; that is engineering's call.
+
+## Step 3: Choose the questions
 
 Name the request type or types (New Custom Field, Automation, Integration, Data Backfill, Routing, Permissions, Tool or Channel Switch, Report, LWC, Process-only, and so on). Use [question-bank.md](question-bank.md) as a menu of candidates, not a checklist. Always consider the cross-cutting group (reports and dashboards, compensation and past periods).
 
-Only ask a question if it passes the filter for the stage:
+Ask the PM a question only if the answer would significantly change the level of effort or complexity:
 
-| Stage | Ask only if |
+| Stage | Limit |
 |---|---|
-| 1. Intake | The answer would move the T-shirt size, or decide whether it can be sized at all. Max 3 questions. |
-| 2. Discovery | The answer is needed to write the requirements and would significantly change effort or complexity (design approach, number of systems, data migration, past-period impact). Max 5 questions. |
+| 1. Intake | Max 3. Only questions that would move the T-shirt size, or decide whether it can be sized at all. |
+| 2. Discovery | Max 5. Only questions that change effort or complexity: number of users or teams, past-period or historical data, other systems, compliance. |
 
-Test each candidate: "If the answer came back the other way, would the size or the approach change?" If not, drop it. Detail that only shapes the build (data types, visibility, field labels, default values) is settled by engineering during grooming and is not asked of stakeholders. Do not list dropped questions.
+Test each candidate: "If the answer came back the other way, would the size change?" If not, drop it. Everything else, including build detail and requirements gaps that barely change effort, is left for engineering's grooming or written as `TBD` in the draft. Do not list dropped questions.
 
-## Step 3: Size it
+Sort the questions you keep by who answers them:
+- **Stakeholders** decide policy, scope, outcomes, who is affected, effective dates, and what happens to past data.
+- **Engineering** confirms system facts: where data lives, how current logic works, related tickets, and feasibility. Never send the PM to research Salesforce internals.
+- Risks that only concern engineering (code ownership, tech debt) go under **Engineering will confirm**, not in the PM's risk list.
+
+## Step 4: Size it
 
 Use [sizing.md](sizing.md), which is the Confluence T-Shirt Size page. Sizes are person weeks, and Small is the smallest. Give a range and a confidence, for example `S–M, low confidence`.
 
-Name the 2–4 factors that would move the size up or down, written as "If X, this moves to Y." Base them on the request and the matching question-bank sections.
+Explain the size with **complexity drivers** (how many users, systems, and teams are involved; historical data; compliance), not with a design. Write "touches past commission periods", not "add a batch job to recalculate". Name the 2–4 factors that would move the size, written as "If X, this moves to Y."
 
-## Step 4: Respond using the stage template
+## Step 5: Respond using the stage template
 
-Keep it short. PMs should be able to forward the questions to stakeholders as-is.
-
-Sort every question by who can answer it:
-- **Stakeholders** decide policy, scope, outcomes, who is affected, effective dates, and what happens to past data.
-- **Engineering** confirms system facts: where data lives, which field or object holds it, how current logic works, related tickets, and feasibility. Never send the PM to research Salesforce internals.
-- If a decision depends on a system fact, put the fact under engineering and the decision under stakeholders. Engineering can propose a default for the stakeholder to accept.
-- Risks that only concern engineering (code ownership, tech debt) go under **Engineering will confirm**, not in the PM's risk list.
+Keep it short. PMs should be able to forward the stakeholder questions as-is.
 
 ### Stage 1 and 2 response
 
 ```markdown
 **Stage:** Intake | Discovery
 **Request type:** [type(s)]
+**The need:** [one sentence: who has what problem and what outcome they want]
 **Size:** [range] · **Confidence:** [low | medium | high]
-**Why this size:** [1–2 sentences: what drives the estimate]
+**Why this size:** [1–2 sentences of complexity drivers, no design]
 
 **What could change it**
 - If [condition], this moves to [size].
-- If [condition], this drops to [size].
 
-**Questions to take to stakeholders** (only what passes the Step 2 filter, most size-changing first)
-1. [question] — [who likely knows] — [why it matters: the size or approach it changes]
+**Questions to take to stakeholders**
+1. [question] — [who likely knows] — [the size change it could cause]
 
-**Engineering will confirm** (no PM action needed; only facts that affect size or approach)
-- [system fact to look up or investigate]
+**Engineering will confirm** (no PM action needed)
+- [system fact that affects the size]
+
+**Solution check** (only if the input proposes a design)
+- "[PM's words]" → the need: [restated outcome]. Engineering will decide how.
 
 **Risks with what we know today**
 - [risk the PM should know about]
 
 **Split recommendation** (only if more than one task)
-- [ticket title] — [scope]
+- [outcome-style title] — [scope]
 
-**Next step:** [e.g. answer questions 1–3, then come back for a requirements draft]
+**Next step:** [e.g. answer question 1, then come back for a requirements draft]
 ```
 
-At Stage 2, also include a pre-filled draft using the template in [requirements-format.md](requirements-format.md), with `TBD — decision needed from [role]` wherever the answer is still missing. Do not hand out the template at Stage 1 unless the PM says the item is moving forward.
+At Stage 2, also include a draft using the template in [requirements-format.md](requirements-format.md), written in the problem space, with `TBD — decision needed from [role]` wherever the answer is missing. Do not hand out the template at Stage 1 unless the PM says the item is moving forward.
 
 ### Stage 3 response
 
@@ -99,15 +112,18 @@ Run the checklist in [requirements-format.md](requirements-format.md) and respon
 **Verdict:** Ready for engineering | Needs changes | Needs a spike first
 **Size check:** [confirm or revise the size, with confidence]
 
+**Solution check**
+- [section]: "[PM's words]" → rewrite as: [need or observable outcome]
+
 **Must fix before engineering**
 - [section]: [problem] → [suggested rewrite]
 
+**Acceptance criteria coaching**
+- AC [n]: pass | rewrite → [Given/When/Then describing what a user or the business can observe]
+- Missing: [happy path | edge case | negative | rollback]
+
 **Should fix**
 - [...]
-
-**Acceptance criteria review**
-- [each AC: pass | rewrite → suggested Given/When/Then]
-- Missing: [happy path | edge case | negative | rollback]
 
 **Open TBDs for stakeholders**
 - [decision] — [owner role]
@@ -116,7 +132,7 @@ Run the checklist in [requirements-format.md](requirements-format.md) and respon
 - [system fact]
 ```
 
-Offer a full rewritten ticket only if the PM asks for it, or if more than half the sections need changes.
+Explain each rewrite in one short clause so the PM learns the pattern, for example "describes what the rep sees, not how the system does it". Offer a full rewritten ticket only if the PM asks, or if more than half the sections need changes.
 
 ## Sources
 

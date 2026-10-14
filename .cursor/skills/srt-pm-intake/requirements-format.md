@@ -8,10 +8,12 @@ For bugs, spikes, data backfills, DevQA, and capacity buckets, use the matching 
 
 Title: **verb + object + constraint**. It must make sense on a sprint board with the description closed.
 
+Every section describes the problem, the users, the rules, and the outcome. None of them describe how to build it; that belongs in engineering's design doc. See [solution-check.md](solution-check.md).
+
 Description:
 
 ```markdown
-[One sentence: the change and who it is for.]
+[One sentence: the outcome and who it is for.]
 
 ## Background
 [How it works today. Systems, users, and process involved.]
@@ -23,7 +25,7 @@ Description:
 1. [Rule the system must enforce, stated as a fact.]
 
 ## Scope
-* [What changes.]
+* [What changes for users or the business.]
 * [What explicitly stays the same (out of scope).]
 
 ## Dependencies
@@ -37,7 +39,7 @@ Description:
 * **Written** [where users and support will find the documentation]
 ```
 
-Acceptance Criteria field (put AC in the Jira field, not the description):
+Acceptance Criteria field (put AC in the Jira field, not the description). Each AC describes what a user, manager, customer, or report can observe:
 
 ```markdown
 **Happy path.** Given [state]. When [action]. Then [observable result].
@@ -54,25 +56,26 @@ Acceptance Criteria field (put AC in the Jira field, not the description):
 Mark each item pass or fail. Any **must** failure means the verdict is `Needs changes`. Undefined design or approach means `Needs a spike first`.
 
 **Must**
-- [ ] Title is verb + object + constraint, not a placeholder.
+- [ ] No proposed solutions in the description or AC (see [solution-check.md](solution-check.md)). Engineering owns the design.
+- [ ] Title is verb + object + constraint, describes an outcome, and is not a placeholder.
 - [ ] Problem Statement says who is affected and what goes wrong today, with evidence.
-- [ ] Scope lists what changes and what stays the same.
+- [ ] Scope lists what changes for users and what stays the same.
 - [ ] One task only. Otherwise propose a split.
-- [ ] Salesforce objects, fields, reports, and records are named exactly, or marked `TBD`.
+- [ ] Existing records, reports, and dashboards referenced as context are named exactly or linked.
 - [ ] Every TBD has an owner role.
-- [ ] Acceptance criteria are in Given/When/Then and each is binary pass/fail.
+- [ ] Acceptance criteria are in Given/When/Then, each is binary pass/fail, and each describes something a user or the business can observe.
 - [ ] AC cover happy path, at least one edge case, and a negative test.
 - [ ] No learning-outcome language in AC ("understand", "explore", "investigate whether", "works", "complete").
-- [ ] No abstract groupings without a system field behind them (drafting rule 7).
+- [ ] Groups of users are defined in business terms someone can check (title, department, team), not "anyone like Adam's team" (drafting rule 7). Engineering maps them to the system.
 
 **Should**
 - [ ] Business Rules are separate from Scope and stated as facts.
 - [ ] Rollback AC exists for anything touching live data, automation, routing, or integrations.
 - [ ] Definition of Done names who tests and where it ships first.
 - [ ] Cross-cutting impacts addressed: reports and dashboards, compensation and past periods.
-- [ ] Type-specific questions from [question-bank.md](question-bank.md) are answered or listed as TBD.
 - [ ] Links are specific and summarized, not a URL dump.
-- [ ] Describes the outcome, not a solution design. Engineering owns the design doc.
+
+Do not fail a ticket for missing build detail (data types, field visibility, labels). Engineering asks for that during grooming.
 
 ## Sprint-ready bar
 
