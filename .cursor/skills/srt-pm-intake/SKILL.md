@@ -1,6 +1,7 @@
 ---
 name: srt-pm-intake
 description: Coaches SRT product managers from a one-line product intake to an engineering-ready Jira story. Gives a T-shirt size range with confidence, the risks that could move it, the questions to take to stakeholders, a requirements template, and a critique of drafted requirements against the SALES-9926 format. Use when a PM shares a request, idea, intake, brief, requirements doc, or SALES ticket and asks for sizing, an estimate, LOE, what is missing, a review, or whether it is ready for engineering. Covers Salesforce and Salesforce integrations.
+disable-model-invocation: true
 ---
 
 # SRT PM Intake Coach
@@ -37,9 +38,9 @@ Name the request type or types (New Custom Field, Automation, Integration, Data 
 
 ## Step 3: Size it
 
-Use [sizing.md](sizing.md). Give a range and a confidence, for example `S–M, low confidence`. Sizes are person-weeks from the Confluence T-Shirt Size page. Work below Small (under 2 person-weeks) is reported as `Below S (ticket-level)` and should go straight to a story, not a project.
+Use [sizing.md](sizing.md), which is the Confluence T-Shirt Size page. Sizes are person weeks, and Small is the smallest. Give a range and a confidence, for example `S–M, low confidence`.
 
-Name the 2–4 factors that would move the size up or down, written as "If X, this moves to Y."
+Name the 2–4 factors that would move the size up or down, written as "If X, this moves to Y." Base them on the request and the matching question-bank sections.
 
 ## Step 4: Respond using the stage template
 

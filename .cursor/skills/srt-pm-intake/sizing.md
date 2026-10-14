@@ -1,57 +1,39 @@
 # Sizing
 
-Snapshot of Confluence [T-Shirt Size](https://trr-prod.atlassian.net/wiki/spaces/WOW/pages/13369348/T-Shirt+Size), version 3 (April 2026).
+Snapshot of Confluence [T-Shirt Size](https://trr-prod.atlassian.net/wiki/spaces/WOW/pages/13369348/T-Shirt+Size), version 3 (April 2026). Fetch the live page when the Atlassian tools are available.
 
-## Scale (person-weeks)
+We leverage **person weeks** as the unit of measure for t-shirt sizing.
 
-| Size | Min | Median | Max |
+| T-Shirt Size | Min Weeks | Median | Max Weeks |
 |---|---|---|---|
-| Below S (ticket-level) | 0 | — | < 2 |
 | Small | 2 | 7 | 12 |
 | Medium | 13 | 19 | 24 |
 | Large | 25 | 49 | 72 |
 | Extra-Large | 73 | 108 | 144 |
 
-Over 144 person-weeks: recommend splitting into multiple projects.
+If something is larger than 144 person weeks, break it up into multiple projects.
 
-`Below S` is not on the Confluence page. Many SRT requests (one field, one picklist, one report) are days of work, not weeks. Report them as `Below S (ticket-level)` and send them straight to a story rather than forcing a Small.
+Similar to story point poker, the squad leaders conduct a session with the correct group to t-shirt size at the Intake and Discovery milestones. In both cases, a t-shirt size should be able to be assigned after a 15-30 min session. This is a forcing function to ensure consistency and balance. More time is not better.
 
-Capacity reference: 11 available person-weeks per engineer per quarter.
+## Capacity Guidelines
 
-## Confidence and range width
+- 52 weeks in a year
+- 13 weeks per Engineer per quarter
+- Subtract 2 weeks to cover general admin and time off
 
-| Confidence | Typical input | Range allowed |
-|---|---|---|
-| Low | 1–3 sentences, no systems or volumes named | Up to two adjacent sizes (`S–M`) or "S or larger" |
-| Medium | Systems, objects, users, and rough volumes known; some TBDs | One size, or two adjacent sizes with a stated lean (`M, could be L`) |
-| High | Requirements reviewed, scope and AC locked | One size |
+**11 weeks of available capacity per Engineer per quarter**
 
-If the input is too vague to size at all (no system, no user, no outcome), say `Not sizable yet` and ask the two or three questions that would make it sizable.
+*Ex: 77 person weeks of available capacity for a 7 person eng squad per quarter*
 
-## Salesforce size drivers
+## T-Shirt Size as Timeboxing
 
-Use these to place the request and to write the "what could change it" lines. Each item is a reason to move up, not an automatic jump.
+- Engineering technical discovery work can be timeboxed using the T-Shirt size (probably a Small).
+- Generic "Feature Enhancement" work for a squad should be at most a Small amount of work per quarter. If you have more stories in product feature enhancements to do, these should be considered as a separate epic for the specific workstream.
 
-**Usually keeps it small (often Below S)**
-- Config only: field, picklist value, page layout, list view, report or dashboard tile
-- Permission set assignment for named users
-- One record type or one object
+## How this skill reports a size
 
-**Pushes it up**
-- An integration: a new external system, a new connected app, bidirectional sync, or real-time requirements
-- Data backfill or migration, especially across past periods or with no single locked source
-- Compensation, commissions, or past-period restatement
-- Routing or assignment changes (LeanData, SUMO, Omni-Channel), including test data for every route
-- A new LWC or custom UI, especially with callouts or mobile support
-- Automation that fires in bulk, has recursion risk, or needs rollback behavior
-- Tool or channel switches (phone, SMS, dialer) where day-one parity with the old tool is expected
-- Multiple teams, objects, or business units affected
-- SOX or compliance approval paths
-- An abstract rule ("anyone on Adam's team") that has no Salesforce structure behind it yet
-
-**Unknowns that most often blow up an estimate**
-- "Make it automatic" with no defined criteria
-- An unnamed source system or data owner
-- Unknown record volumes
-- Whether historical data must change
-- Whether reports and dashboards downstream must change
+- Small is the smallest size. Anything at or under 12 person weeks is Small.
+- Give a range plus a confidence, for example `S–M, low confidence`.
+- Range width follows confidence: low may span two adjacent sizes, medium is one size or two with a stated lean, high is one size.
+- If there is not enough to size at all, say `Not sizable yet` and ask the questions that would make it sizable.
+- Swing factors come from the request itself and the relevant sections of [question-bank.md](question-bank.md), not from general assumptions.
