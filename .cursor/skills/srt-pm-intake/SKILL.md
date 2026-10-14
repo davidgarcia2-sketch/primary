@@ -100,8 +100,11 @@ Run the checklist in [requirements-format.md](requirements-format.md) and respon
 - [each AC: pass | rewrite → suggested Given/When/Then]
 - Missing: [happy path | edge case | negative | rollback]
 
-**Open TBDs and owners**
-- [...]
+**Open TBDs for stakeholders**
+- [decision] — [owner role]
+
+**Engineering will confirm**
+- [system fact]
 ```
 
 Offer a full rewritten ticket only if the PM asks for it, or if more than half the sections need changes.
