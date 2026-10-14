@@ -2,7 +2,7 @@
 
 Snapshot of Confluence [Intake Questions by Request Type](https://trr-prod.atlassian.net/wiki/spaces/SRT/pages/398753794/Intake+Questions+by+Request+Type), version 5.
 
-These are examples of what engineering may ask. They are not a form. Ask only what this request needs, and put the questions that change the size first. At Stage 1, pick at most six.
+These are examples of what engineering may ask. They are not a form. Pick only the questions that pass the stage filter in SKILL.md Step 2: most requests need two or three, and many of these are settled by engineering during grooming instead.
 
 ## Always check: cross-cutting groups
 

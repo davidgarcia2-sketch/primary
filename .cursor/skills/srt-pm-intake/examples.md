@@ -19,11 +19,9 @@ Illustrative only. The requests are invented.
 - If texting must also update opportunity stages or dispositions automatically, add roughly a size.
 
 **Questions to take to stakeholders**
-1. Is this replacing a tool reps use today, or adding one? Which tool? — Sales ops
-2. Which teams and roughly how many reps? — Sales leadership
-3. What must work on day one: logging, templates, opt-outs, stage updates? — Sales ops
-4. Do reps need history from texts already sent? — Sales leadership
-5. Are there legal or compliance rules for texting customers (consent, quiet hours)? — Legal
+1. Is this replacing a tool reps use today, or adding one? — Sales ops — replacing means day-one parity work, which can add a size.
+2. Do reps need history from texts already sent? — Sales leadership — migrating old messages moves this to L.
+3. Must texting update opportunity stages or dispositions automatically? — Sales ops — adds automation on top of the integration.
 
 **Engineering will confirm**
 - Whether we already license an SMS product with a Salesforce integration.

@@ -34,7 +34,16 @@ If a Jira key is given and the Atlassian tools are available, fetch the ticket w
 
 ## Step 2: Classify the request type
 
-Name the request type or types (New Custom Field, Automation, Integration, Data Backfill, Routing, Permissions, Tool or Channel Switch, Report, LWC, Process-only, and so on). Then pull only the relevant questions from [question-bank.md](question-bank.md). Always check the cross-cutting group (reports and dashboards, compensation and past periods).
+Name the request type or types (New Custom Field, Automation, Integration, Data Backfill, Routing, Permissions, Tool or Channel Switch, Report, LWC, Process-only, and so on). Use [question-bank.md](question-bank.md) as a menu of candidates, not a checklist. Always consider the cross-cutting group (reports and dashboards, compensation and past periods).
+
+Only ask a question if it passes the filter for the stage:
+
+| Stage | Ask only if |
+|---|---|
+| 1. Intake | The answer would move the T-shirt size, or decide whether it can be sized at all. Max 3 questions. |
+| 2. Discovery | The answer is needed to write the requirements and would significantly change effort or complexity (design approach, number of systems, data migration, past-period impact). Max 5 questions. |
+
+Test each candidate: "If the answer came back the other way, would the size or the approach change?" If not, drop it. Detail that only shapes the build (data types, visibility, field labels, default values) is settled by engineering during grooming and is not asked of stakeholders. Do not list dropped questions.
 
 ## Step 3: Size it
 
@@ -64,10 +73,10 @@ Sort every question by who can answer it:
 - If [condition], this moves to [size].
 - If [condition], this drops to [size].
 
-**Questions to take to stakeholders** (business decisions only, most size-changing first, max 5)
-1. [question] — [who likely knows]
+**Questions to take to stakeholders** (only what passes the Step 2 filter, most size-changing first)
+1. [question] — [who likely knows] — [why it matters: the size or approach it changes]
 
-**Engineering will confirm** (no PM action needed)
+**Engineering will confirm** (no PM action needed; only facts that affect size or approach)
 - [system fact to look up or investigate]
 
 **Risks with what we know today**
