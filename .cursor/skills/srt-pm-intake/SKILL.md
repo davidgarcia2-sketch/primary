@@ -46,6 +46,12 @@ Name the 2–4 factors that would move the size up or down, written as "If X, th
 
 Keep it short. PMs should be able to forward the questions to stakeholders as-is.
 
+Sort every question by who can answer it:
+- **Stakeholders** decide policy, scope, outcomes, who is affected, effective dates, and what happens to past data.
+- **Engineering** confirms system facts: where data lives, which field or object holds it, how current logic works, related tickets, and feasibility. Never send the PM to research Salesforce internals.
+- If a decision depends on a system fact, put the fact under engineering and the decision under stakeholders. Engineering can propose a default for the stakeholder to accept.
+- Risks that only concern engineering (code ownership, tech debt) go under **Engineering will confirm**, not in the PM's risk list.
+
 ### Stage 1 and 2 response
 
 ```markdown
@@ -58,11 +64,14 @@ Keep it short. PMs should be able to forward the questions to stakeholders as-is
 - If [condition], this moves to [size].
 - If [condition], this drops to [size].
 
-**Questions to take to stakeholders** (most size-changing first, max 6)
+**Questions to take to stakeholders** (business decisions only, most size-changing first, max 5)
 1. [question] — [who likely knows]
 
+**Engineering will confirm** (no PM action needed)
+- [system fact to look up or investigate]
+
 **Risks with what we know today**
-- [risk]
+- [risk the PM should know about]
 
 **Split recommendation** (only if more than one task)
 - [ticket title] — [scope]

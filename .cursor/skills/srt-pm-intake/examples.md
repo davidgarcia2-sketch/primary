@@ -24,7 +24,10 @@ Illustrative only. The requests are invented.
 3. What must work on day one: logging, templates, opt-outs, stage updates? — Sales ops
 4. Do reps need history from texts already sent? — Sales leadership
 5. Are there legal or compliance rules for texting customers (consent, quiet hours)? — Legal
-6. Do any reports or dashboards need to show text activity? — RevOps
+
+**Engineering will confirm**
+- Whether we already license an SMS product with a Salesforce integration.
+- Where text activity would be logged and which reports could show it.
 
 **Risks with what we know today**
 - Customer consent and opt-out rules can add compliance work.
